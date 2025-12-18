@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas Membuat Form Karyawan</title>
+</head>
+<body>
+    <form action="simpan_data.php" method="post" novalidate>
+    </form>
+<h1>Form Penerimaan Karyawan Baru</h1>
+<hr>
+<pre>
+NIK :
+    <input type="text" size="11" name="nik">
+NAMA LENGKAP :
+    <input type="text" size="25" name="nama lengkap">
+Tanggal lahir :
+    <input type="date" size="10" value="dd/mm/yyy">
+JENIS KELAMIN :
+        <input type="radio" name="jkel" value="pria">pria
+        <input type="radio" name="jkel" value="wanita">wanita
+ALAMAT :
+    <textarea name="alamat" rows="3" cols="30"></textarea>
+PENDIDIKAN TERAKHIR :
+    <select name="Pendidikan Terakhir">
+        <option value="SMA">SMA</option>
+        <option value="SMP">SMP</option>
+        <option value="SD">SD</option>
+        <option value="TK">TK</option>
+        </select>
+JABATAN YANG DILAMAR :
+        <select name="jabatan yang dilamar">
+            <option value="manager">manager</option>
+            <option value="asisten manager">asisten manager</option>
+            <option value="staff">staff</option>
+            <option value="admisitrasi">administrasi</option>
+            <option value="magang">magang</option>
+        </select>
+UPLOAD CV(PDF/DOC):
+            <input type="file" name="upload cv">
+            </pre>
+        <input type="submit" value="daftar">
+         <input type="reset" value="reset">
+
+    </select>
+</body>
+</html>
